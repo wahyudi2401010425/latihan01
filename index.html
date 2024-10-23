@@ -28,6 +28,26 @@
         tr:hover{
           background-color: coral;
         }
+        label{font-size:14px;font-weight: bold;}
+        input[type=text],input[type=number],input[type=date],input[type=time],input[type=password]{width: 100%; padding: 12px 20px; border-radius: 5px;
+        margin: 8px;
+      color:blue;
+    background-color: gold;
+  font-size: 16px;}
+  select{
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin: 8px;
+    color:blue;
+    background-color: gold;
+  font-size: 16px;}
+
+  input[type=chackbox],input[type=radio]{
+    outline: 1px solid #c0c0c0;
+  }
+        
+
   </style>
 </head>
 
@@ -75,5 +95,38 @@
   <h3>astungkare</h3>
   <button onclick="console.log('hello');">LOGIN</button>
   <script defer type="text/javascript" src="/main.js"></script>
+</body>
+<body>
+
+   <from>
+    <br>
+       <label>from text</label>
+       <input type="text" name="txalamat" value="isikan alamat" id="txalamat" class="txalamat">
+       <label>form number</label>
+       <input type="number">
+       <label>from tgl</label>
+       <input type="date">
+       <label>from time</label>
+       <input type="time">
+       <label>from pilihan</label>
+       <input type="radio" name="jnsk"> laki laki
+       <input type="radio" name="jnsk"> perempuan
+       <br>
+       <input type="checkbox">sepak Bola
+       <input type="checkbox">voli
+       <input type="checkbox">tinju
+       <br>
+       <label>from pilijhan lain</label>
+       <select>
+        <option> silakan pilih warna</option>
+        <option>merah</option>
+          <option>biru</option>
+          <option>putih</option>
+       </select>
+       <label>form password</label>
+       <input type="password" name="txpass">
+       <input type="submit"value="tombol">
+      </from>
+
 </body>
 </html>
